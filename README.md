@@ -1,2 +1,2 @@
-# ScaleFocus-Academy-Homework
- Here is a repo for my homeworks in ScaleFocusAcademy
+## ScaleFocus Academy Homeworks
+ Here is a repository for my homeworks in ScaleFocusAcademy
