@@ -1,8 +1,13 @@
 while True:
-    operation = float(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Devide \n Enter choice:(1/2/3/4): "))
-    if operation == 1 or operation ==2 or operation ==3 or operation ==4:
-        a = float(input("What is the first number: "))
-        b = float(input("What is the second number: "))
+    operation = int(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Devide \n Enter choice:(1/2/3/4): "))
+    if operation == 1 or operation == 2 or operation == 3 or operation == 4:
+        try:
+            a = float(input("What is the first number: "))
+            b = float(input("What is the second number: "))
+        except:
+            print("Invalid input!")
+            continue
+
     else:
         continue
 
@@ -23,12 +28,13 @@ while True:
             def fundivide(a, b):
                 return a / b
             print(fundivide(a, b))
-        print("You can't devide by 0")
+        else:
+            print("You can't devide by 0")
 
 
-
-    answer = input("Would you like to do another operation? yes/no ")
+    answer = input("Would you like to do another operation? yes/no: ")
     if answer == "no":
         break
     elif answer == "yes":
         continue
+
