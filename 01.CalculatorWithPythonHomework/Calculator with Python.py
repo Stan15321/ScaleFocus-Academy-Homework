@@ -11,7 +11,11 @@ def fundivide(a, b):
     return a / b
 
 while True:
-    operation = int(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Devide \n Enter choice:(1/2/3/4): "))
+    try:
+        operation = int(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Devide \n Enter choice:(1/2/3/4): "))
+    except:
+        print("Invalid operation, please input 1, 2, 3 or 4")
+        continue
     if operation == 1 or operation == 2 or operation == 3 or operation == 4:
         try:
             a = float(input("What is the first number: "))
