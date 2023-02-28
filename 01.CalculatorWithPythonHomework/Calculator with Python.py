@@ -12,7 +12,7 @@ def fundivide(a, b):
 
 while True:
     try:
-        operation = int(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Devide \n Enter choice:(1/2/3/4): "))
+        operation = int(input("Select operation\n 1.Add \n 2.Subtract \n 3.Multiply\n 4.Divide \n Enter choice:(1/2/3/4): "))
     except:
         print("Invalid operation, please input 1, 2, 3 or 4")
         continue
@@ -37,11 +37,9 @@ while True:
         if b !=0:
             print(fundivide(a, b))
         else:
-            print("You can't devide by 0")
+            print("You can't divide by 0")
 
     answer = input("Would you like to do another operation? yes/no: ")
-    if answer == "no":
+    if answer == "no" or answer == "No":
         break
-    elif answer == "yes":
-        continue
 
