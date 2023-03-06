@@ -1,0 +1,9 @@
+#!/bin/bash
+#the program loader is instructed to use the /bin/bash
+
+printf "Please input your name \n"
+read input
+
+printf "$input"
+
+uptime
