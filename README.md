@@ -6,7 +6,7 @@
  
  For example: "01.StartingWithDevOps" is a file from the labs.
  
- * 01.1 are the tasks from the lectures.
+ * 01.1-0N are the tasks from the lectures.
  
  For example: "01.1.CreatingJS Server" is a file from the lectures.
  
