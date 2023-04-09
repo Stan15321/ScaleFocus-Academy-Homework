@@ -1,0 +1,9 @@
+Storage
+account
+name:
+kubernetesaccount15321
+
+Storage
+account
+key:
+pwBgeJBhWZZU9bEYAiy9pK/fGnBkXH7NZsZ+dRp++ooTIqz+NsubNs8N1QvhGQ1Ka7PXOnuc/1w++ASt5FGXQA==

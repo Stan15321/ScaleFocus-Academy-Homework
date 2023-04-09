@@ -1,0 +1,16 @@
+apiVersion: v1
+kind : Pod
+metadata:
+  name: webapp
+  labels:
+   app: web
+spec:
+ containers:
+ - name: redis
+ image: asterixlegaulois/redis123
+ ports:
+ - containerPort: 6379
+- name: nginx-container
+  image: nginx
+  ports:
+  -containerPort: 80
